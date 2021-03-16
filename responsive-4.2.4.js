@@ -57,7 +57,7 @@ if (isMobileClient() && !href.match(/\?responsive=off/)) {
     g.content = "width=device-width, initial-scale=1.0";
     document.getElementsByTagName("head")[0].appendChild(g);
     var t = document.createElement("a");
-    t.href = "https://www.drudgereport.com/?responsive=off";
+    t.href = "https://www.gladrapchannel.com/?responsive=off";
     t.innerHTML =
       "Web Version";
     g = document.createElement("style");
