@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  .boxer-section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .boxer-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .boxer-image {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .boxer-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .boxer-articles a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .boxer-articles article {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
