@@ -72,6 +72,22 @@
 
   <footer>
     <p>&copy; 2023 GladrapChannel News. All rights reserved.</p>
+    <p id="pageCount">Page visits: <span id="count">0</span></p>
+
+    <script>
+      // Track page visits
+      function trackVisit() {
+        if (localStorage.pageCount) {
+          localStorage.pageCount = parseInt(localStorage.pageCount) + 1;
+        } else {
+          localStorage.pageCount = 1;
+        }
+        document.getElementById("count").textContent = localStorage.pageCount;
+      }
+
+      // Call trackVisit when the page is loaded
+      trackVisit();
+    </script>
   </footer>
 </body>
 
